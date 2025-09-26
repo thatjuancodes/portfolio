@@ -46,6 +46,10 @@ function Hero({ onContactClick }: HeroProps) {
             </Heading>
 
             <Heading size="xl" color="gray.600" fontWeight="medium">
+              Digital Nomad Dad
+            </Heading>
+
+            <Heading size="lg" color="gray.500" fontWeight="normal">
               Full Stack AI Engineer
             </Heading>
 
