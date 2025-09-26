@@ -1,4 +1,5 @@
-import { Box, Container, Heading, Text, Button, Stack } from '@chakra-ui/react'
+import { Box, Container, Heading, Text, Button, Stack, Icon } from '@chakra-ui/react'
+import { FaCode } from 'react-icons/fa'
 
 interface HeroProps {
   onContactClick: () => void
@@ -65,9 +66,7 @@ function Hero({ onContactClick }: HeroProps) {
               justifyContent="center"
               position="relative"
             >
-              <Text fontSize="6xl" color="blue.500">
-                👨‍💻
-              </Text>
+              <Icon as={FaCode} boxSize="120px" color="blue.500" />
             </Box>
           </Box>
         </Stack>

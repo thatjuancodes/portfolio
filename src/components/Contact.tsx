@@ -1,4 +1,5 @@
-import { Box, Container, Heading, Text, SimpleGrid, Stack, Button, Link } from '@chakra-ui/react'
+import { Box, Container, Heading, Text, SimpleGrid, Stack, Button, Link, Icon } from '@chakra-ui/react'
+import { FaEnvelope, FaLinkedinIn, FaGithub, FaTwitter } from 'react-icons/fa'
 
 function Contact() {
   const contactMethods = [
@@ -7,28 +8,28 @@ function Contact() {
       description: 'Get in touch via email',
       action: 'Send Email',
       href: 'mailto:juan@thatjuancodes.com',
-      icon: '📧'
+      icon: FaEnvelope
     },
     {
       title: 'LinkedIn',
       description: 'Connect with me professionally',
       action: 'View Profile',
       href: 'https://linkedin.com/in/juanthatcodes',
-      icon: '💼'
+      icon: FaLinkedinIn
     },
     {
       title: 'GitHub',
       description: 'Check out my code repositories',
       action: 'View GitHub',
       href: 'https://github.com/juanthatcodes',
-      icon: '💻'
+      icon: FaGithub
     },
     {
       title: 'Twitter',
       description: 'Follow me for tech updates',
       action: 'Follow Me',
       href: 'https://twitter.com/juanthatcodes',
-      icon: '🐦'
+      icon: FaTwitter
     }
   ]
 
@@ -58,7 +59,7 @@ function Contact() {
                 transition="all 0.2s"
               >
                 <Stack gap={4}>
-                  <Text fontSize="3xl">{method.icon}</Text>
+                  <Icon as={method.icon} boxSize="48px" color="blue.500" mx="auto" />
                   <Stack gap={2}>
                     <Heading size="md">{method.title}</Heading>
                     <Text color="gray.600" fontSize="sm">
