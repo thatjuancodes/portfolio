@@ -46,7 +46,7 @@ function Hero({ onContactClick }: HeroProps) {
             </Heading>
 
             <Heading size="xl" color="gray.600" fontWeight="medium">
-              Full Stack Developer
+              Full Stack AI Engineer
             </Heading>
 
             <Text fontSize="lg" color="gray.600" maxW="500px">
