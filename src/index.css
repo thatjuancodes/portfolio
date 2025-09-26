@@ -15,11 +15,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #ffde1a; /* Changed from #646cff to lemon yellow */
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #e6c700; /* Changed from #535bf2 to darker lemon yellow */
 }
 
 body {
@@ -47,7 +47,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #ffde1a; /* Changed from #646cff to lemon yellow */
 }
 button:focus,
 button:focus-visible {
@@ -60,7 +60,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #ccb300; /* Changed from #747bff to darker lemon yellow for light mode */
   }
   button {
     background-color: #f9f9f9;
