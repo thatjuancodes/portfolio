@@ -32,7 +32,13 @@ function Hero({ onContactClick }: HeroProps) {
               Passionate about clean code, user experience, and bringing ideas to life through code.
             </Text>
 
-            <Stack direction={{ base: 'column', sm: 'row' }} gap={4}>
+            <Stack 
+              direction={{ base: 'column', sm: 'row' }} 
+              gap={4}
+              align={{ base: 'center', sm: 'flex-start' }}
+              justify={{ base: 'center', sm: 'flex-start' }}
+              w="full"
+            >
               <Button
                 backgroundColor="blue.500"
                 color="white"
