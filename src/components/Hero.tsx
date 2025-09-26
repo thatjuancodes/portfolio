@@ -41,7 +41,7 @@ function Hero({ onContactClick }: HeroProps) {
             <Heading size="3xl" lineHeight="shorter">
               Hi, I'm{' '}
               <Text as="span" color="yellow.500">
-                Juan
+                Bertusho
               </Text>
             </Heading>
 
