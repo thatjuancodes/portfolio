@@ -15,11 +15,11 @@
 
 a {
   font-weight: 500;
-  color: #ffde1a; /* Changed from #646cff to lemon yellow */
+  color: #3b82f6; /* Changed back to blue */
   text-decoration: inherit;
 }
 a:hover {
-  color: #e6c700; /* Changed from #535bf2 to darker lemon yellow */
+  color: #2563eb; /* Changed back to darker blue */
 }
 
 body {
@@ -47,7 +47,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #ffde1a; /* Changed from #646cff to lemon yellow */
+  border-color: #3b82f6; /* Changed back to blue */
 }
 button:focus,
 button:focus-visible {
@@ -60,7 +60,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #ccb300; /* Changed from #747bff to darker lemon yellow for light mode */
+    color: #1d4ed8; /* Changed back to darker blue for light mode */
   }
   button {
     background-color: #f9f9f9;

@@ -1,31 +1,31 @@
 import { createSystem, defaultConfig, defineTokens } from '@chakra-ui/react'
 
-// Define lemon yellow color palette with proper token structure
-const lemonYellowPalette = {
-  50: { value: '#fffef7' },
-  100: { value: '#fffce0' },
-  200: { value: '#fff9c2' },
-  300: { value: '#fff395' },
-  400: { value: '#ffea56' },
-  500: { value: '#ffde1a' }, // Main lemon yellow
-  600: { value: '#e6c700' },
-  700: { value: '#ccb300' },
-  800: { value: '#b39f00' },
-  900: { value: '#998c00' },
-  950: { value: '#806600' }
+// Define blue color palette with proper token structure
+const bluePalette = {
+  50: { value: '#eff6ff' },
+  100: { value: '#dbeafe' },
+  200: { value: '#bfdbfe' },
+  300: { value: '#93c5fd' },
+  400: { value: '#60a5fa' },
+  500: { value: '#3b82f6' }, // Main blue
+  600: { value: '#2563eb' },
+  700: { value: '#1d4ed8' },
+  800: { value: '#1e40af' },
+  900: { value: '#1e3a8a' },
+  950: { value: '#172554' }
 }
 
 // Define tokens with proper structure
 const tokens = defineTokens({
   colors: {
-    // Replace blue with lemon yellow
-    blue: lemonYellowPalette,
+    // Use blue as the primary color
+    blue: bluePalette,
     // Also create a 'primary' alias for consistency
-    primary: lemonYellowPalette
+    primary: bluePalette
   }
 })
 
-// Create custom theme with lemon yellow as primary
+// Create custom theme with blue as primary
 export const theme = createSystem(defaultConfig, {
   theme: {
     tokens
