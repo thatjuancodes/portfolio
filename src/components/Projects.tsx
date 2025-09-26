@@ -68,7 +68,7 @@ function Projects() {
       <Container maxW="container.xl">
         <Stack gap={12}>
           <Stack gap={4} textAlign="center">
-            <Heading size="2xl">Featured Projects</Heading>
+            <Heading size="2xl">My Projects</Heading>
             <Text fontSize="lg" color="gray.600" maxW="600px" mx="auto">
               Here are some of my recent projects that showcase my skills and experience 
               in full-stack development, UI/UX design, and modern web technologies.
