@@ -12,7 +12,7 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #ffde1aaa); /* Changed from #646cffaa to lemon yellow */
+  filter: drop-shadow(0 0 2em #eab308aa); /* Changed to lemon yellow with transparency */
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
