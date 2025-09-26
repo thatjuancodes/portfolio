@@ -15,7 +15,29 @@ function Hero({ onContactClick }: HeroProps) {
           gap={12}
           textAlign={{ base: 'center', lg: 'left' }}
         >
-          <Stack flex={1} gap={6}>
+          {/* Circle icon - will appear on top on mobile, right side on desktop */}
+          <Box 
+            flex={1} 
+            display="flex" 
+            justifyContent="center"
+            order={{ base: -1, lg: 1 }}
+          >
+            <Box
+              w="300px"
+              h="300px"
+              bg="blue.100"
+              rounded="full"
+              display="flex"
+              alignItems="center"
+              justifyContent="center"
+              position="relative"
+            >
+              <Icon as={FaCode} boxSize="120px" color="blue.500" />
+            </Box>
+          </Box>
+
+          {/* Text content - will appear below icon on mobile, left side on desktop */}
+          <Stack flex={1} gap={6} order={{ base: 0, lg: 0 }}>
             <Heading size="3xl" lineHeight="shorter">
               Hi, I'm{' '}
               <Text as="span" color="blue.500">
@@ -60,21 +82,6 @@ function Hero({ onContactClick }: HeroProps) {
               </Button>
             </Stack>
           </Stack>
-
-          <Box flex={1} display="flex" justifyContent="center">
-            <Box
-              w="300px"
-              h="300px"
-              bg="blue.100"
-              rounded="full"
-              display="flex"
-              alignItems="center"
-              justifyContent="center"
-              position="relative"
-            >
-              <Icon as={FaCode} boxSize="120px" color="blue.500" />
-            </Box>
-          </Box>
         </Stack>
       </Container>
     </Box>
