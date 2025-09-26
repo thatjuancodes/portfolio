@@ -25,14 +25,14 @@ function Hero({ onContactClick }: HeroProps) {
             <Box
               w="300px"
               h="300px"
-              bg="blue.100"
+              bg="yellow.100"
               rounded="full"
               display="flex"
               alignItems="center"
               justifyContent="center"
               position="relative"
             >
-              <Icon as={FaCode} boxSize="120px" color="blue.500" />
+              <Icon as={FaCode} boxSize="120px" color="yellow.400" />
             </Box>
           </Box>
 
@@ -40,7 +40,7 @@ function Hero({ onContactClick }: HeroProps) {
           <Stack flex={1} gap={6} order={{ base: 0, lg: 0 }}>
             <Heading size="3xl" lineHeight="shorter">
               Hi, I'm{' '}
-              <Text as="span" color="blue.500">
+              <Text as="span" color="yellow.500">
                 Juan
               </Text>
             </Heading>
@@ -66,21 +66,21 @@ function Hero({ onContactClick }: HeroProps) {
               w="full"
             >
               <Button
-                backgroundColor="blue.500"
-                color="white"
+                backgroundColor="yellow.400"
+                color="gray.800"
                 size="lg"
                 onClick={onContactClick}
-                _hover={{ backgroundColor: 'blue.600' }}
+                _hover={{ backgroundColor: 'yellow.500' }}
               >
                 Get In Touch
               </Button>
 
               <Button
                 variant="outline"
-                borderColor="blue.500"
-                color="blue.500"
+                borderColor="yellow.400"
+                color="yellow.600"
                 size="lg"
-                _hover={{ backgroundColor: 'blue.50' }}
+                _hover={{ backgroundColor: 'yellow.50' }}
               >
                 View Projects
               </Button>
