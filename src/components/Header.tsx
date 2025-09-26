@@ -22,7 +22,7 @@ function Header({ onSectionClick }: HeaderProps) {
             cursor="pointer"
             onClick={() => onSectionClick('hero')}
           >
-            ThatJuanCodes
+            JM Alvarez
           </Heading>
 
           <Stack direction="row" gap={2} display={{ base: 'none', md: 'flex' }}>

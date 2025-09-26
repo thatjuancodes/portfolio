@@ -14,7 +14,7 @@ function Footer() {
           textAlign={{ base: 'center', md: 'left' }}
         >
           <Text fontSize="sm" color="gray.400">
-            © {currentYear} ThatJuanCodes. All rights reserved.
+            © {currentYear} JM Alvarez. All rights reserved.
           </Text>
 
           <Stack direction="row" gap={6}>
