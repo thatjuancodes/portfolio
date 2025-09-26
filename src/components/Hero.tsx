@@ -55,10 +55,10 @@ function Hero({ onContactClick }: HeroProps) {
             </Text>
 
             <Stack 
-              direction={{ base: 'column', sm: 'row' }} 
+              direction={{ base: 'column', md: 'row' }} 
               gap={4}
               align="center"
-              justify={{ base: 'center', sm: 'flex-start' }}
+              justify={{ base: 'center', md: 'flex-start' }}
               w="full"
             >
               <Button

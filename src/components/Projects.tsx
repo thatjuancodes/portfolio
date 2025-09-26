@@ -100,7 +100,7 @@ function Projects() {
                     </Stack>
                   </Stack>
 
-                  <Stack direction="row" gap={2}>
+                  <Stack direction={{ base: 'column', sm: 'row' }} gap={2}>
                     {project.demoUrl && (
                       <Link href={project.demoUrl} target="_blank" rel="noopener noreferrer" flex={1}>
                         <Button
